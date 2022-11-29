@@ -1,0 +1,44 @@
+[
+    {
+      "Id": "1",
+      "Tipo": "Casa",
+      "Operacion": "Venta",
+      "Barrio": "Villa del Parque",
+      "Ciudad": "CABA",
+      "Habitaciones": "3",
+      "Baños": "2",
+      "Metros": "430",
+      "Precio": "190.000 USD",
+      "Imagen": [
+        "https://img.freepik.com/foto-gratis/pequeno-patio-espanol-palmeras-banch-antigua-puerta-madera-ventanas-garachico-tenerife-espana_1217-1984.jpg?w=740&t=st=1669521239~exp=1669521839~hmac=6757f1b9b98503dd8e20f0795b87410e876b39421522a1c0dc09319117404bfa"
+        ]
+    },
+    {
+        "Id": "2",
+        "Tipo": "Departamento",
+        "Operacion": "Alquiler",
+        "Barrio": "Palermo",
+        "Ciudad": "CABA",
+        "Habitaciones": "1",
+        "Baños": "2",
+        "Metros": "70",
+        "Precio": "$80.000",
+        "Imagen": [
+            "https://img.freepik.com/foto-gratis/patio-ciudad-espanola-valencia_1398-2394.jpg?w=740&t=st=1669512396~exp=1669512996~hmac=714f66fddeb25a8344ebb8d17daa593e5c156f9a7ca33f1979b7cf02ce718beb"
+        ]
+      },
+      {
+        "Id": "3",
+        "Tipo": "Departamento",
+        "Operacion": "Venta",
+        "Barrio": "Villa Crespo",
+        "Ciudad": "CABA",
+        "Habitaciones": "2",
+        "Baños": "2",
+        "Metros": "80mts",
+        "Precio": "90.000 USD",
+        "Imagen": [
+            "https://img.freepik.com/foto-gratis/apartamento-estrenar-vacio-amueblar_181624-45321.jpg?w=740&t=st=1669521277~exp=1669521877~hmac=873db903d39497f9383023166a699b268f2d68e6ccfd066174a7d5cbc6fa8eb0"
+        ]
+      }
+]
