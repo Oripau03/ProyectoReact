@@ -1,14 +1,8 @@
-import './style/style.css'
-import diseno from './img/diseno.jpg';
-import diseno1 from './img/diseno1.jpg';
-import diseno2 from './img/diseno2.jpg';
-import diseno3 from './img/diseno3.jpg';
-import diseno4 from './img/diseno4.jpg';
-import ImgRow from './components/ImgRow';
+import diseno from '../img/diseno.jpg';
 
-function Diseno() {
+function DisenoSection1() {
     return (
-        <div>
+        <>
             <section className="int-section1 w-100 d-flex flex-column flex-md-row">
                 <div className="int-section1-left d-flex flex-column col-md-7 p-4 p-md-5">
                     <h1>
@@ -22,19 +16,11 @@ function Diseno() {
                     </p>
                 </div>
                 <div className="int-section1-right d-flex col-md-5 p-4 p-md-5 align-items-center">
-                <img src={diseno} />
-                </div>
-
-            </section>
-            <section className="gallery m-2 p-md-5 d-flex row">
-                <div>
-                    <ImgRow/>
+                <img src={diseno} alt='Imagen diseño'/>
                 </div>
             </section>
-
-        </div>
-
-    )
+        </>
+            )
 }
 
-export default Diseno;
+export default DisenoSection1;

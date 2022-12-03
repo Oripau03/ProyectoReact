@@ -1,8 +1,7 @@
 import { Form } from "react-bootstrap"
 import { Button } from "react-bootstrap"
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import ContactAlert from './ContactAlert'
-import Error from "./Error";
 
 import '../style/style.css'
 
@@ -17,7 +16,7 @@ function ContactForm() {
     })
     const [guardarDatos, setGuardarDatos] = useState('');
     
-    const [error, setError] = useState(false);
+    /* const [error, setError] = useState(false); */
     
     // LEER DATOS DEL INPUT
     const handleChange = (e) => {

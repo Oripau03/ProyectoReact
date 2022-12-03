@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 import diseno1 from '../img/diseno1.jpg'
@@ -10,18 +9,19 @@ import diseno4 from '../img/diseno4.jpg'
 
 
 function ImgRow() {
-    const [img1, setImg1] = useState(false);
-    const [img2, setImg2] = useState(false);
-    const [img3, setImg3] = useState(false);
-    const [img4, setImg4] = useState(false);
-  
-    return (
-      <>
+  const [img1, setImg1] = useState(false);
+  const [img2, setImg2] = useState(false);
+  const [img3, setImg3] = useState(false);
+  const [img4, setImg4] = useState(false);
+
+  return (
+    <>
+      <section className="gallery m-2 p-md-5 d-flex row">
         <div className='row'>
-            <a onClick={() => setImg1(true)} className="col-md-3 px-md-1 py-1" data-bs-toggle="modal" data-bs-target="#modal2"><img src={diseno1} /></a>
-            <a onClick={() => setImg2(true)} className="col-md-3 px-md-1 py-1" data-bs-toggle="modal" data-bs-target="#modal2"><img src={diseno2} /></a>
-            <a onClick={() => setImg3(true)} className="col-md-3 px-md-1 py-1" data-bs-toggle="modal" data-bs-target="#modal2"><img src={diseno3} /></a>
-            <a onClick={() => setImg4(true)} className="col-md-3 px-md-1 py-1" data-bs-toggle="modal" data-bs-target="#modal2"><img src={diseno4} /></a>
+          <a onClick={() => setImg1(true)} className="col-md-3 px-md-1 py-1" data-bs-toggle="modal" data-bs-target="#modal2"><img src={diseno1} alt='Diseño de Interiores'/></a>
+          <a onClick={() => setImg2(true)} className="col-md-3 px-md-1 py-1" data-bs-toggle="modal" data-bs-target="#modal2"><img src={diseno2} alt='Diseño de Interiores'/></a>
+          <a onClick={() => setImg3(true)} className="col-md-3 px-md-1 py-1" data-bs-toggle="modal" data-bs-target="#modal2"><img src={diseno3} alt='Diseño de Interiores'/></a>
+          <a onClick={() => setImg4(true)} className="col-md-3 px-md-1 py-1" data-bs-toggle="modal" data-bs-target="#modal2"><img src={diseno4} alt='Diseño de Interiores'/></a>
         </div>
 
         <Modal
@@ -33,8 +33,8 @@ function ImgRow() {
           <Modal.Header closeButton>
           </Modal.Header>
           <Modal.Body><img src={diseno1} /></Modal.Body>
-        </Modal>        
-        
+        </Modal>
+
         <Modal
           size="sm"
           show={img2}
@@ -67,9 +67,10 @@ function ImgRow() {
           </Modal.Header>
           <Modal.Body><img src={diseno4} /></Modal.Body>
         </Modal>
-      </>
-    );
-  }
-  
+      </section>
+    </>
+  );
+}
+
 
 export default ImgRow

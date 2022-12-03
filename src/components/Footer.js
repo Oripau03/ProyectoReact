@@ -1,13 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 
-import Team from './Team';
-import Home from './Home';
-
-import logo from './img/logo.png';
-import './style/header-footer.css';
-import { Navbar } from 'react-bootstrap';
-import { Container } from 'react-bootstrap';
+import logo from '../img/logo.png';
+import '../style/header-footer.css';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {

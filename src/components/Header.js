@@ -1,8 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 
-import logo from './img/logo.png';
-import './style/header-footer.css';
+import logo from '../img/logo.png';
+import '../style/header-footer.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
