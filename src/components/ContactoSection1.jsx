@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 function ContactoSection1() {
 
-    const [contacto, setContacto] = useState({});
+    const [contacto] = useState({}); // setContacto eliminado para que compile
 
     return (
         <>
@@ -14,7 +14,7 @@ function ContactoSection1() {
                 <ContactForm setContacto={contacto} />
             </section>
         </>
-)
+    )
 }
 
 export default ContactoSection1;
