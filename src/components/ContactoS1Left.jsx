@@ -36,7 +36,7 @@ function ContactoLeft() {
                     </div>
                 </div>
                 <div className="contact-map">
-                    <img src={map} />
+                    <img src={map} alt="Mapa de la ubicación" />
                 </div>
             </div>
         </>
